@@ -1,0 +1,159 @@
+* {
+   padding: 0px; 
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/*Estilo del Header*/
+.header {
+    width: 100%;
+    height: 150px;
+    padding: 60px;
+    background-color: #f095d2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    color: white
+    ;
+    
+}
+
+.header h1{
+    font-size: 70px;
+    padding-left: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.header .header-menu{
+    text-align: right;
+    
+}
+
+.header .header-menu .header-menu-ind{
+    display: flex;
+    width: 100px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+    }
+
+.header .header-menu-ind:hover{
+    text-decoration: underline;
+}
+
+/*Estilo del Main*/
+.main {
+    
+    width: 100%;
+    background-color: #d4b6ce;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main .main-section {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main h2 {
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.main .main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main .main-section .main-section-img{
+    width: 35%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.main .main-section .main-section-parrafo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    font-weight: bold;
+
+}
+
+.main .main-section-clientes{
+    background-color: rgb(223, 176, 223);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 50px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+.main .main-section-clientes .main-section-img{
+    display: flex;
+    width: 25%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: block;
+
+
+}
+
+.main .main-section-clientes .clientes{
+    padding: 15px;
+    text-align: justify;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.footer .sofia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+
+.footer .Copywright{
+    text-align: center;
+    padding: 30px;
+    border-top: 2px solid #00E4D6;
+}
